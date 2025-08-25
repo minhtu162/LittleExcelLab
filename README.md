@@ -12,12 +12,6 @@ Chào mừng bạn đến với Excel Recipes – nơi tổng hợp những côn
 - Ứng dụng thực tế: báo cáo, lọc dữ liệu, phân tích số liệu
 - File mẫu và ví dụ minh họa
 
-## 🚀 Cách sử dụng
-1. Clone về máy bằng Git:
-`code` git clone https://github.com/minhtu162/ExcelRecipes.git
-2. Mở file Excel tương ứng
-3. Áp dụng công thức theo hướng dẫn
-
 ## 🤝 Đóng góp
 Nếu bạn có công thức hay muốn chia sẻ, hãy tạo pull request hoặc mở issue. Cộng đồng cùng nhau học hỏi sẽ mạnh hơn!
 
