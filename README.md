@@ -1,5 +1,5 @@
-# Excel Formula Vault
-Chào mừng đến với Excel Formula Vault – nơi tổng hợp những công thức Excel hữu ích, thông minh và dễ áp dụng cho dân văn phòng, kế toán, và phân tích dữ liệu.
+# Excel Recipes
+Chào mừng đến với Excel Recipes – nơi tổng hợp những công thức Excel hữu ích, thông minh và dễ áp dụng cho dân văn phòng, kế toán, và phân tích dữ liệu.
 
 ## Mục tiêu
 - Tiết kiệm thời gian khi xử lý dữ liệu
