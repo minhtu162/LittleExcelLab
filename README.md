@@ -1,19 +1,24 @@
-# 📊 Excel Recipes
-Chào mừng bạn đến với Excel Recipes – nơi tổng hợp những công thức Excel hữu ích, thông minh và dễ áp dụng cho dân văn phòng, kế toán, và phân tích dữ liệu.
+# 🧪 Excel Lab
+Chào mừng bạn đến với Excel Lab – nơi tổng hợp, sáng tạo và phát triển các hệ thống Excel thông minh. Không chỉ là những công thức đơn lẻ, mà là cả một hệ sinh thái bảng tính tự động, tiện lợi và dễ tuỳ biến cho nhiều mục đích khác nhau.
 
-## 🎯 Mục tiêu
-- Tiết kiệm thời gian khi xử lý dữ liệu
-- Tăng hiệu suất làm việc với Excel
-- Khám phá những mẹo hay mà ít người biết
+## 🚀 Mục tiêu
+- Tạo ra các công cụ Excel giúp tiết kiệm thời gian và công sức
+- Tự động hoá các quy trình lặp đi lặp lại
+- Biến Excel thành một nền tảng quản lý dữ liệu hiệu quả
+- Chia sẻ kiến thức và truyền cảm hứng cho những ai yêu thích bảng tính
 
-## 📂 Nội dung
-- Các công thức Excel phổ biến (VLOOKUP, INDEX/MATCH, IF, SUMIFS…)
-- Công thức nâng cao (ARRAYFORMULA, LET, LAMBDA…)
-- Ứng dụng thực tế: báo cáo, lọc dữ liệu, phân tích số liệu
-- File mẫu và ví dụ minh họa
+## 📦 Nội dung
+| Mục | Mô tả |
+|---|----|
+| Formulas/ | Các công thức Excel hữu ích, có chú thích rõ ràng |
+| Systems/ | Các file Excel dạng hệ thống: quản lý, dashboard, automation... |
+| Templates/  | Mẫu bảng tính có thể tuỳ chỉnh theo nhu cầu |
 
-## 🤝 Đóng góp
-Nếu bạn có công thức hay muốn chia sẻ, hãy tạo pull request hoặc mở issue. Cộng đồng cùng nhau học hỏi sẽ mạnh hơn!
 
-## 📬 Liên hệ
-Bạn có thể liên hệ mình qua htminhtu.162@gmail.com.
+## 🛠 Công nghệ sử dụng
+- Microsoft Excel/ Google Sheets (chủ yếu)
+- Power Query / VBA (tuỳ hệ thống)
+- Một chút sáng tạo và rất nhiều đam mê 💡
+
+## 🤝 Góp ý & đóng góp
+Nếu bạn có ý tưởng hay, hoặc muốn đóng góp vào ExcelLab, cứ thoải mái mở issue hoặc gửi pull request nhé. Mình rất hoan nghênh mọi sự đóng góp!
