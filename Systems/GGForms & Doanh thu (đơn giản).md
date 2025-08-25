@@ -18,6 +18,7 @@ File gồm các sheet sau:
 | `Google Forms`   | Nhập liệu đơn hàng theo từng khu vực và QL       |
 | `Doanh thu`   | Tổng hợp doanh thu theo tháng, khu vực, QL       |
 | `Phiếu giao hàng`  | Mẫu phiếu giao hàng để đối chiếu và kiểm tra (được in ra làm 2 tờ cùng 1 lúc)     |
+
 Nên dùng giới hạn chỉnh sửa ở các sheet, trừ 3 cột ở sheet `Google Forms` và 1 ô ở `Phiếu giao hàng`
 
 ---
