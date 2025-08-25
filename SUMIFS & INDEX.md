@@ -6,7 +6,7 @@ Dùng INDEX để xác định cột được dùng để cộng
 
 ### Công thức mẫu
 =SUMIFS(INDEX($A$1:$G$8,,MATCH(C$10,$1:$1,0)),$B$1:$B$8,$B11)
-!(images/sumifs&index1.png)
+![](images/sumifs&index1.png)
 
 ### Giải thích
 INDEX($A$1:$G$8,,MATCH(C$10,$1:$1,0))  
