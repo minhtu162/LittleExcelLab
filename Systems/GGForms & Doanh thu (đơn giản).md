@@ -1,6 +1,6 @@
 ## GGForms & Doanh thu (đơn giản)
-**Hệ thống quản lý đơn hàng và doanh thu nội bộ**
-File Excel này được thiết kế để hỗ trợ chủ phòng in nhập liệu, kiểm tra phiếu giao hàng, và tổng hợp doanh thu theo từng khu vực và quản lý.  
+**Hệ thống quản lý đơn hàng và doanh thu nội bộ**  
+File Excel này được thiết kế để hỗ trợ chủ phòng photo nhập liệu, kiểm tra phiếu giao hàng, và tổng hợp doanh thu theo từng khu vực và quản lý.  
 
 ---
 
