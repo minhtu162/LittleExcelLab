@@ -6,6 +6,7 @@
 
 ### Công thức mẫu
 =SUMIFS(INDEX($A$1:$G$7,,MATCH(C$9,$1:$1,0)),$B$1:$B$7,$B10)
+![](images/sumifs&index1.png)
 
 
 ### Giải thích
