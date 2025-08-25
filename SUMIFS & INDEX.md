@@ -7,10 +7,10 @@ Dùng INDEX để xác định cột được dùng để cộng
 =SUMIFS(INDEX($A$1:$G$8,,MATCH(C$10,$1:$1,0)),$B$1:$B$8,$B11)
 
 ### Giải thích
-INDEX($A$1:$G$8,,MATCH(C$10,$1:$1,0))
+INDEX($A$1:$G$8,,MATCH(C$10,$1:$1,0))  
 --> Xác định cột được dùng để cộng là cột có điều kiện 'MATCH(C$10,$1:$1,0)'
 
-SUM(...) 
+SUM(...)   
 --> Tính tổng dựa trên điều kiện '$B$1:$B$8' có giá trị bằng '$B11', và cộng tổng ở cột được xác định bởi INDEX
 
 ### Ứng dụng thực tế
