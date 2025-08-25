@@ -1,28 +1,26 @@
 # Excel Formula Vault
-Welcome to Excel Formula Vault – a curated collection of powerful, practical, and time-saving Excel formulas for everyday tasks, data analysis, and spreadsheet magic.
+Chào mừng đến với Excel Formula Vault – nơi tổng hợp những công thức Excel hữu ích, thông minh và dễ áp dụng cho dân văn phòng, kế toán, phân tích dữ liệu, và bất kỳ ai muốn làm chủ bảng tính.
 
-## Purpose
-This repository is designed to:
-- Help you work smarter with Excel
-- Save time on repetitive tasks
-- Discover clever tricks and lesser-known formulas
-- Serve as a quick reference for both beginners and pros
+## Mục tiêu
+- Tiết kiệm thời gian khi xử lý dữ liệu
+- Tăng hiệu suất làm việc với Excel
+- Khám phá những mẹo hay mà ít người biết
 
-## What's Inside
-- Common formulas: VLOOKUP, IF, SUMIFS, INDEX/MATCH, etc.
-- Advanced formulas: ARRAYFORMULA, LET, LAMBDA, and more
-- Real-world use cases: reporting, filtering, data cleanup
-- Sample files and examples for easy understanding
+## Nội dung
+- Các công thức Excel phổ biến (VLOOKUP, INDEX/MATCH, IF, SUMIFS…)
+- Công thức nâng cao (ARRAYFORMULA, LET, LAMBDA…)
+- Ứng dụng thực tế: báo cáo, lọc dữ liệu, phân tích số liệu
+- File mẫu và ví dụ minh họa
 
-## How to Use
-Clone the repository:
+## Cách sử dụng
+1. Clone repo về máy:
 bash
 git clone https://github.com/your-username/excel-formula-vault.git
-Open the Excel files
-Explore and apply the formulas to your own projects
+2. Mở file Excel tương ứng
+3. Áp dụng công thức theo hướng dẫn
 
-## Contributions Welcome
-Got a cool formula or trick to share? Feel free to open an issue or submit a pull request. Let’s build a helpful resource together!
+## Đóng góp
+Nếu bạn có công thức hay muốn chia sẻ, hãy tạo pull request hoặc mở issue. Cộng đồng cùng nhau học hỏi sẽ mạnh hơn!
 
-## Contact
-Questions or suggestions? Reach out via htminhtu.162@gmail.com.
+## Liên hệ
+Bạn có thể liên hệ mình qua htminhtu.162@gmail.com.
