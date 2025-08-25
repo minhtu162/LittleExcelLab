@@ -6,7 +6,7 @@
 
 ### Công thức mẫu
 =SUMIFS(INDEX($A$1:$G$7,,MATCH(C$9,$1:$1,0)),$B$1:$B$7,$B10)
-![](images/sumifs&index1.png)
+![](https://github.com/minhtu162/ExcelRecipes/blob/main/images/sumifs%26index1.png)
 
 
 ### Giải thích
@@ -19,7 +19,7 @@
 
 ### Ứng dụng thực tế
 Giả sử bạn có bảng lương từ A1 đến G7, và bạn muốn tính tổng lương theo 6421, 622, 6271 từ và theo tháng bạn muốn:
-![](images/sumifs&index1.png)
+![](https://github.com/minhtu162/ExcelRecipes/blob/main/images/sumifs%26index1.png)
 
 
 ### Lưu ý
