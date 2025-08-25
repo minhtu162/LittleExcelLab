@@ -13,9 +13,8 @@ Chào mừng bạn đến với Excel Recipes – nơi tổng hợp những côn
 - File mẫu và ví dụ minh họa
 
 ## 🚀 Cách sử dụng
-1. Clone repo về máy:
-bash
-git clone https://github.com/your-username/excel-formula-vault.git
+1. Clone về máy bằng Git:
+`code` git clone https://github.com/minhtu162/ExcelRecipes.git
 2. Mở file Excel tương ứng
 3. Áp dụng công thức theo hướng dẫn
 
