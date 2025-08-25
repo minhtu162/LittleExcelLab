@@ -4,7 +4,7 @@ File Excel này được thiết kế để hỗ trợ chủ phòng in nhập li
 
 ---
 
-Tải file Excel: [GGForms-DoanhThu.xlsx](https://github.com/minhtu162/ExcelLab/blob/main/Notes/GGForms%20%26%20Doanh%20thu%20(%C4%91%C6%A1n%20gi%E1%BA%A3n).xlsx?raw=true)
+Tải file Excel: [GGForms-DoanhThu.xlsx](https://github.com/minhtu162/ExcelLab/blob/main/Notes/GGForms & Doanh thu (đơn giản).xlsx.xlsx?raw=true)
 
 
 ---
