@@ -1,0 +1,22 @@
+SUM + INDEX Formula
+## 🔍 Mục đích
+Tính tổng một vùng dữ liệu động, được xác định bằng hàm INDEX. Hữu ích khi bạn muốn tổng hợp dữ liệu mà vị trí thay đổi theo điều kiện.
+
+## 📌 Công thức mẫu
+
+## 🧠 Giải thích
+INDEX(B2:B10, 1) trả về ô đầu tiên trong vùng B2:B10
+
+INDEX(B2:B10, 5) trả về ô thứ 5 trong vùng đó
+
+SUM(...) sẽ tính tổng từ ô đầu tiên đến ô thứ 5 → tức là SUM(B2:B6)
+
+## 📈 Ứng dụng thực tế
+Giả sử bạn có bảng doanh số từ B2 đến B10, và bạn muốn tính tổng từ tháng đầu tiên đến tháng thứ n, trong đó n là giá trị trong ô A1:
+
+excel
+=SUM(INDEX(B2:B10, 1):INDEX(B2:B10, A1))
+## ✅ Lưu ý
+INDEX giúp bạn chọn vùng động mà không cần dùng OFFSET
+
+Công thức này hoạt động tốt trong các báo cáo có độ dài thay đổi
