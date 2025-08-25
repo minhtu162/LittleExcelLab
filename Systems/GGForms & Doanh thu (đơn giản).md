@@ -34,3 +34,8 @@ Nên dùng giới hạn chỉnh sửa ở các sheet, trừ 3 cột ở sheet `G
    - Nếu có sai sót, vui lòng xác nhận qua Zalo trong ngày để được xử lý kịp thời
 
 ---
+
+### Lỗi có thể xảy ra
+- Mỗi lần nhập mới 1 Form, cột "Thứ tự" ở sheet `Google Forms` sẽ bị lỗi.  
+  Lý do vì dòng Form mới không có sẵn công thức như những dòng trên.
+  -> Vì thế cần copy lại.
