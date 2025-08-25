@@ -19,6 +19,7 @@
 
 ### Ứng dụng thực tế
 Giả sử bạn có bảng lương từ A1 đến G7, và bạn muốn tính tổng lương theo 6421, 622, 6271 từ và theo tháng bạn muốn:
+![](images/sumifs&index1.png)
 
 
 ### Lưu ý
