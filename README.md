@@ -25,4 +25,4 @@ Explore and apply the formulas to your own projects
 Got a cool formula or trick to share? Feel free to open an issue or submit a pull request. Let’s build a helpful resource together!
 
 ## Contact
-Questions or suggestions? Reach out via [htminhtu.162@gmail.com].
+Questions or suggestions? Reach out via htminhtu.162@gmail.com.
