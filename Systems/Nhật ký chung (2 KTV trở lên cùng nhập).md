@@ -8,7 +8,7 @@ Tải file Excel: [Nhật ký chung (2 KTV trở lên).xlsx](https://github.com/
 
 ---
 
-### Nội dung chính
+### 📋 Nội dung chính
 
 File gồm các sheet sau:
 
@@ -24,14 +24,14 @@ Nên dùng giới hạn chỉnh sửa ở các sheet để tránh KTV này nhậ
 
 ---
 
-### Hướng dẫn sử dụng
+### 🧭 Hướng dẫn sử dụng
 **1. Nhập dữ liệu ở mỗi sheet NV1, NV2, NV3:** từng bạn KTV nhập thu chi vào sheet của mình.  
    Lưu ý có thể chi tiết thông tin nhiều hơn, tùy Quản lý mong muốn.  
 **2. Kiểm tra sheet `Nhật ký chung`:** Liệu ở sheet `Nhật ký chung` có hiện đầy đủ từ 3 sheet của KTV hay không, mình kiểm tra ô A1, TRUE là đúng, FALSE là sai
 
 ---
 
-### Cách vận hành
+### ⚙️ Cách vận hành
 **1. Cách đánh số thứ tự từng dòng trong nhật ký chung của NV:**
    - Đánh theo số thập phân: 1.01, 1.02, 2.01, 2.02
    - Trong đó, số nguyên được tính theo RANK của ngày tháng trong các ngày tháng đã nhập của 3 KTV; Số thập phân được tính bằng đếm số lần ngày tháng đó lặp lại của 3 KTV. Ví dụ:
@@ -100,5 +100,5 @@ Công thức kiểm tra liệu sheet `nhật ký chung` tổng có nhập đủ 
 
 ---
 
-### Lỗi có thể xảy ra
+### 🐞 Lỗi có thể xảy ra
 Hiện tại chưa có.
