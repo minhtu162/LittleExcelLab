@@ -13,15 +13,15 @@ Nhờ có STT mới, mình có được bảng chi tiết nhanh chỉ bằng cá
 ---
 
 ### 📐 Công thức mẫu và Giải thích:
-- Ở bảng tổng, mình tạo STT mới bằng `Mã QL` dùng công thức Excel như sau:
-Mình lấy ô `Mã QL`, kết hợp với dấu chấm và `COUNTIF`.
+- Ở bảng tổng, mình tạo STT mới bằng `Mã QL` dùng công thức Excel như sau:  
+Mình lấy ô `Mã QL`, kết hợp với dấu chấm và `COUNTIF`.  
 Lưu ý `COUNTIF` dải ô sẽ cố định ở ô đầu tiên, khi đó lúc mình kéo công thức xuống thì dải ô sẽ được kéo xuống dần.  
 ```excel
 =E2 & "." & COUNTIF($E$2:E2, E2)
 ```  
-- Ở bảng chi tiết, mình thiết lập STT bằng công thức Excel như sau:
-Chuẩn bị sẵn ô `Mã QL` để mình có thể nhập mã bất kỳ mà mình muốn xem chi tiết.
-Sau đó, ở ô STT, mình kết hợp với ô `Mã QL` (cố định) và hàm `ROW`
+- Ở bảng chi tiết, mình thiết lập STT bằng công thức Excel như sau:  
+Chuẩn bị sẵn ô `Mã QL` để mình có thể nhập mã bất kỳ mà mình muốn xem chi tiết.  
+Sau đó, ở ô STT, mình kết hợp với ô `Mã QL` (cố định) và hàm `ROW`  
 ```excel
 = $B$1 & "." & ROW()-2
 ```
