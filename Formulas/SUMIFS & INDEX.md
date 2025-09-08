@@ -14,10 +14,10 @@
 ---
 
 ### Giải thích
-**INDEX($A$1:$G$7 , , MATCH(C$9,$1:$1,0))**  
+`INDEX($A$1:$G$7 , , MATCH(C$9,$1:$1,0))` 
 --> Xác định cột được dùng để cộng là cột có điều kiện 'MATCH(C$9,$1:$1,0)'. Lưu ý không xác định dòng, chỉ xác định cột.
 
-**SUM(...)**    
+`SUM(...)`   
 --> Tính tổng dựa trên điều kiện cột 'B1:B7' có giá trị bằng 'B10', và cộng tổng ở cột được xác định bởi INDEX
 
 ---
