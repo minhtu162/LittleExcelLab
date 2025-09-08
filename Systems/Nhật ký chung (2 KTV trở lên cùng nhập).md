@@ -26,7 +26,7 @@ Nên dùng giới hạn chỉnh sửa ở các sheet để tránh KTV này nhậ
 
 ### Hướng dẫn sử dụng
 **1. Nhập dữ liệu ở mỗi sheet NV1, NV2, NV3:** từng bạn KTV nhập thu chi vào sheet của mình.  
-   Lưu ý có thể chi tiết thông tin nhiều hơn, tùy Quản lý mong muốn.
+   Lưu ý có thể chi tiết thông tin nhiều hơn, tùy Quản lý mong muốn.  
 **2. Kiểm tra sheet `Nhật ký chung`:** Liệu ở sheet `Nhật ký chung` có hiện đầy đủ từ 3 sheet của KTV hay không, mình kiểm tra ô A1, TRUE là đúng, FALSE là sai
 
 ---
