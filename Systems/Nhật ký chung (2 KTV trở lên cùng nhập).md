@@ -37,13 +37,16 @@ Nên dùng giới hạn chỉnh sửa ở các sheet để tránh KTV này nhậ
    - Trong đó, số nguyên được tính theo RANK của ngày tháng trong các ngày tháng đã nhập của 3 KTV. Để liệt kê các ngày tháng đã nhập của 3 KTV, mình dùng hàm excel
 Lấy các ngày tháng của NV1:
 ```Excel
-=UNIQUE(FILTER('NV1'!C6:C1000,'NV1'!C6:C1000>0))```  
+=UNIQUE(FILTER('NV1'!C6:C1000,'NV1'!C6:C1000>0))
+```  
 Lấy các ngày tháng của NV2:
 ```Excel
-=UNIQUE(FILTER('NV2'!C6:C1000,(ISNA(MATCH('NV2'!C6:C1000,A6:A1000,0)))*('NV2'!C6:C1000>0)))```  
+=UNIQUE(FILTER('NV2'!C6:C1000,(ISNA(MATCH('NV2'!C6:C1000,A6:A1000,0)))*('NV2'!C6:C1000>0)))
+```  
 Lấy các ngày tháng của NV3:
 ```Excel
-=UNIQUE(FILTER('NV3'!C6:C1000,(ISNA(MATCH('NV3'!C6:C1000,B6:B1000,0)))*(ISNA(MATCH('NV3'!C6:C1000,A6:A1000,0)))*('NV3'!C6:C1000>0)))```  
+=UNIQUE(FILTER('NV3'!C6:C1000,(ISNA(MATCH('NV3'!C6:C1000,B6:B1000,0)))*(ISNA(MATCH('NV3'!C6:C1000,A6:A1000,0)))*('NV3'!C6:C1000>0)))
+```  
 
 ---
 
