@@ -12,7 +12,6 @@ Chào mừng bạn đến với Little Excel Lab – nơi tổng hợp, sáng t�
 |---|----|
 | Formulas/ | Các công thức Excel hữu ích, có chú thích rõ ràng |
 | Systems/ | Các file Excel dạng hệ thống: quản lý, dashboard, automation... |
-| Templates/  | Mẫu bảng tính có thể tuỳ chỉnh theo nhu cầu |
 
 
 ## 🛠 Công nghệ sử dụng
