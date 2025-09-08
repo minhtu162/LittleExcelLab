@@ -1,10 +1,10 @@
 ## GGForms & Doanh thu (đơn giản)
 **Hệ thống quản lý đơn hàng và doanh thu nội bộ**  
-File Excel này được thiết kế để hỗ trợ chủ phòng photo nhập liệu, kiểm tra phiếu giao hàng, và tổng hợp doanh thu theo từng khu vực và quản lý.  
+File Excel này được thiết kế để hỗ trợ người bán hàng photo nhập liệu, kiểm tra phiếu giao hàng, và tổng hợp doanh thu theo từng khu vực và quản lý.  
 
 ---
 
-Tải file Excel: [GGForms-DoanhThu.xlsx](https://github.com/minhtu162/ExcelLab/raw/main/Notes/GGForms%20%26%20Doanh%20thu%20(%C4%91%C6%A1n%20gi%E1%BA%A3n).xlsx)
+Tải file Excel: [GGForms-DoanhThu.xlsx](https://github.com/minhtu162/ExcelLab/raw/main/Uploads/GGForms%20%26%20Doanh%20thu%20(%C4%91%C6%A1n%20gi%E1%BA%A3n).xlsx)
 
 ---
 
@@ -31,11 +31,11 @@ Nên dùng giới hạn chỉnh sửa ở các sheet, trừ 3 cột ở sheet `G
 4. **Xem tổng hợp doanh thu** theo từng khu vực và quản lý tại sheet `Doanh thu`.
 5. **Ghi chú quan trọng**:  
    - Các bạn TVV khi nhận ĐC nhớ kiểm tra lại với phiếu giao hàng  
-   - Nếu có sai sót, vui lòng xác nhận qua Zalo trong ngày để được xử lý kịp thời
+   - Nếu có sai sót, vui lòng báo lại trong ngày để được xử lý kịp thời
 
 ---
 
 ### Lỗi có thể xảy ra
 - Mỗi lần nhập mới 1 Form, cột "Thứ tự" ở sheet `Google Forms` sẽ bị lỗi.  
-  Lý do vì dòng Form mới không có sẵn công thức như những dòng trên.  
+  Lý do vì dòng nhập mới đó không có sẵn công thức như những dòng trên.  
   -> Vì thế cần copy lại.
