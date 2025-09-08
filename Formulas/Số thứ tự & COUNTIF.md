@@ -3,6 +3,7 @@
 - Lập số thứ tự bằng mã quản lý và `COUNTIF`, ví dụ:
 Mình có bảng tổng:  
 ![](https://github.com/minhtu162/ExcelLab/blob/main/Uploads/STT%26COUNTIF.1.png)  
+
 Nhờ có STT mới, mình có được bảng chi tiết nhanh chỉ bằng cách nhập `Mã QL`:  
 ![](https://github.com/minhtu162/ExcelLab/blob/main/Uploads/STT%26COUNTIF.2.png)  
 
@@ -10,30 +11,29 @@ Nhờ có STT mới, mình có được bảng chi tiết nhanh chỉ bằng cá
 
 ---
 
-### 📐 Công thức mẫu
+### 📐 Công thức mẫu và Giải thích:
+- Ở bảng tổng, mình tạo STT mới bằng `Mã QL` dùng công thức Excel như sau:
+Mình lấy ô `Mã QL`, kết hợp với dấu chấm và `COUNTIF`.
+Lưu ý `COUNTIF` dải ô sẽ cố định ở ô đầu tiên, khi đó lúc mình kéo công thức xuống thì dải ô sẽ được kéo xuống dần.  
 ```excel
-=SUMIFS(INDEX($A$1:$G$7 , , MATCH(C$9,$1:$1,0)), $B$1:$B$7, $B10)
+=E2 & "." & COUNTIF($E$2:E2, E2)
+```  
+- Ở bảng chi tiết, mình thiết lập STT bằng công thức Excel như sau:
+Chuẩn bị sẵn ô `Mã QL` để mình có thể nhập mã bất kỳ mà mình muốn xem chi tiết.
+Sau đó, ở ô STT, mình kết hợp với ô `Mã QL` (cố định) và hàm `ROW`
+```excel
+= $B$1 & "." & ROW()-2
 ```
-![](https://github.com/minhtu162/ExcelLab/blob/main/Uploads/sumifs%26index1.png)
-
----
-
-### 🧠 Giải thích
-`INDEX($A$1:$G$7 , , MATCH(C$9,$1:$1,0))`  
---> Xác định cột được dùng để cộng là cột có điều kiện 'MATCH(C$9,$1:$1,0)'. Lưu ý không xác định dòng, chỉ xác định cột.
-
-`SUM(...)`   
---> Tính tổng dựa trên điều kiện cột 'B1:B7' có giá trị bằng 'B10', và cộng tổng ở cột được xác định bởi INDEX
 
 ---
 
 ### 📈 Ứng dụng thực tế
-Giả sử bạn có bảng lương từ A1 đến G7, và bạn muốn tính tổng lương theo 6421, 622, 6271 từ và theo tháng bạn muốn:
-![](https://github.com/minhtu162/ExcelLab/blob/main/Uploads/sumifs%26index1.png)
+Từ bảng tổng, bạn có thể làm ra từng bảng chi tiết theo `Mã QL` mà bạn muốn:
+![](https://github.com/minhtu162/ExcelLab/blob/main/Uploads/STT%26COUNTIF.2.png)
+![](https://github.com/minhtu162/ExcelLab/blob/main/Uploads/STT%26COUNTIF.3.png)
+![](https://github.com/minhtu162/ExcelLab/blob/main/Uploads/STT%26COUNTIF.4.png)
 
 ---
 
 ### ⚠️ Lưu ý
-Công thức này hoạt động tốt trong:
-- Các báo cáo có độ dài thay đổi
-- Các báo cáo tổng hợp lương theo các tháng trong 1 sheet (có thể tổng hợp yếu tố khác như thuế TNCN, BHXH...)
+Không có.
