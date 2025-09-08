@@ -1,6 +1,6 @@
 ## SỐ THỨ TỰ & COUNTIF
 ### 🎯 Mục đích
-- Lập số thứ tự bằng mã quản lý và `COUNTIF`, ví dụ:
+- Lập số thứ tự bằng mã quản lý và `COUNTIF`, ví dụ:  
 Mình có bảng tổng:  
 ![](https://github.com/minhtu162/ExcelLab/blob/main/Uploads/STT%26COUNTIF.1.png)  
 
