@@ -1,4 +1,4 @@
-## SUMIFS + INDEX
+## SUMIFS & INDEX
 ### Mục đích
 - Dùng SUMIFS để tính tổng dựa trên một hoặc nhiều điều kiện  
 - Dùng INDEX để xác định cột được dùng để cộng
