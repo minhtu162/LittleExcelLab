@@ -14,7 +14,7 @@
 ---
 
 ### Giải thích
-`INDEX($A$1:$G$7 , , MATCH(C$9,$1:$1,0))` 
+`INDEX($A$1:$G$7 , , MATCH(C$9,$1:$1,0))`  
 --> Xác định cột được dùng để cộng là cột có điều kiện 'MATCH(C$9,$1:$1,0)'. Lưu ý không xác định dòng, chỉ xác định cột.
 
 `SUM(...)`   
