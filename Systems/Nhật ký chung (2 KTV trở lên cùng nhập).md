@@ -34,7 +34,7 @@ Nên dùng giới hạn chỉnh sửa ở các sheet để tránh KTV này nhậ
 ### Cách vận hành
 1. **Cách đánh số thứ tự từng dòng trong nhật ký chung của NV:**
    - Đánh theo số thập phân: 1.01, 1.02, 2.01, 2.02
-   - Trong đó, số nguyên được tính theo RANK của ngày tháng trong các ngày tháng đã nhập của 3 KTV; Số thập phân được tính bằng đếm số lần ngày tháng đó lặp lại của 3 KTV. Ví dụ:
+   - Trong đó, số nguyên được tính theo RANK của ngày tháng trong các ngày tháng đã nhập của 3 KTV; Số thập phân được tính bằng đếm số lần ngày tháng đó lặp lại của 3 KTV. Ví dụ:  
 | Ngày tháng có thu chi của các KTV  | Thứ tự    |
 |------------------------------------|-----------|
 | 01/11/2024 (thu tiền hàng 1)       | 1.01      |
