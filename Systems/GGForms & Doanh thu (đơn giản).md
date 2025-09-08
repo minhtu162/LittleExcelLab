@@ -8,7 +8,7 @@ Tải file Excel: [GGForms và Doanh thu.xlsx](https://github.com/minhtu162/Exce
 
 ---
 
-### Nội dung chính
+### 📋 Nội dung chính
 
 File gồm các sheet sau:
 
@@ -23,7 +23,7 @@ Nên dùng giới hạn chỉnh sửa ở các sheet, trừ 3 cột ở sheet `G
 
 ---
 
-### Hướng dẫn sử dụng
+### 🧭 Hướng dẫn sử dụng
    **1. Nhập dữ liệu** vào sheet `Google Forms` theo định dạng:   
    Tên mặt hàng / Đơn giá / Số lượng   
    Lưu ý khi nhập số tiền thì dùng dấu phẩy để đánh dấu hàng nghìn.  
@@ -35,7 +35,7 @@ Nên dùng giới hạn chỉnh sửa ở các sheet, trừ 3 cột ở sheet `G
 
 ---
 
-### Lỗi có thể xảy ra
+### 🐞 Lỗi có thể xảy ra
 - Mỗi lần nhập mới 1 Form, cột "Thứ tự" ở sheet `Google Forms` sẽ bị lỗi.  
   Lý do vì dòng nhập mới đó không có sẵn công thức như những dòng trên.  
   -> Vì thế cần copy lại.
