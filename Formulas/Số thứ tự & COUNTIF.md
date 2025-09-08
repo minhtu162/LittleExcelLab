@@ -1,7 +1,12 @@
-## SUMIFS & INDEX
+## SỐ THỨ TỰ & COUNTIF
 ### 🎯 Mục đích
-- Dùng SUMIFS để tính tổng dựa trên một hoặc nhiều điều kiện  
-- Dùng INDEX để xác định cột được dùng để cộng
+- Lập số thứ tự bằng mã quản lý và `COUNTIF`, ví dụ:
+Mình có bảng tổng:  
+![](https://github.com/minhtu162/ExcelLab/blob/main/Uploads/STT%26COUNTIF.1.png)  
+Nhờ có STT mới, mình có được bảng chi tiết nhanh chỉ bằng cách nhập `Mã QL`:  
+![](https://github.com/minhtu162/ExcelLab/blob/main/Uploads/STT%26COUNTIF.2.png)  
+
+- Ngoài ra, nếu bạn muốn tìm hiểu cách làm STT để tổng hợp nhật ký chung thu chi của 2 KTV trở lên vào 1 bảng NKC tổng, bạn có thể tham khảo [Nhật ký chung (2 KTV trở lên cùng nhập)](https://github.com/minhtu162/LittleExcelLab/blob/main/Systems/Nh%E1%BA%ADt%20k%C3%BD%20chung%20(2%20KTV%20tr%E1%BB%9F%20l%C3%AAn%20c%C3%B9ng%20nh%E1%BA%ADp).md)
 
 ---
 
