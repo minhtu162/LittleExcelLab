@@ -4,7 +4,7 @@ File Excel này được thiết kế để hỗ trợ các kế toán viên nh�
 
 ---
 
-Tải file Excel: [Nhật ký chung(2 KTV trở lên).xlsx](https://github.com/minhtu162/ExcelLab/raw/main/Uploads/Nhật%20ký%20chung%20(2%20KT%20trở%20lên%20cùng%20nhập).xlsx)
+Tải file Excel: [Nhật ký chung (2 KTV trở lên).xlsx](https://github.com/minhtu162/ExcelLab/raw/main/Uploads/Nhật%20ký%20chung%20(2%20KT%20trở%20lên%20cùng%20nhập).xlsx)
 
 ---
 
