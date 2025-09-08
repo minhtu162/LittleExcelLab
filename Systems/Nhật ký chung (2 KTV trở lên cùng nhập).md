@@ -34,7 +34,7 @@ Nên dùng giới hạn chỉnh sửa ở các sheet để tránh KTV này nhậ
 ### Cách vận hành
 1. **Cách đánh số thứ tự từng dòng trong nhật ký chung của NV:**
    - Đánh theo số thập phân: 1.01, 1.02, 2.01, 2.02
-   - Trong đó, số nguyên được tính theo RANK của ngày tháng trong các ngày tháng đã nhập của 3 KTV; Số thập phân được tính bằng đếm số lần ngày tháng đó lặp lại của 3 KTV. Ví dụ:  
+   - Trong đó, số nguyên được tính theo RANK của ngày tháng trong các ngày tháng đã nhập của 3 KTV; Số thập phân được tính bằng đếm số lần ngày tháng đó lặp lại của 3 KTV. Ví dụ:
 
 | Ngày tháng có thu chi của các KTV  | Thứ tự    |
 |------------------------------------|-----------|
@@ -44,6 +44,7 @@ Nên dùng giới hạn chỉnh sửa ở các sheet để tránh KTV này nhậ
 | 10/11/2024 (chi tiền hàng 2)       | 2.02      |
 
    - Để tính số nguyên, đầu tiên mình cần liệt kê các ngày tháng đã nhập của 3 KTV, mình dùng hàm excel `UNIQUE` và `FILTER`    
+
 Liệt kê các ngày tháng của NV1:
 ```Excel
 =UNIQUE(FILTER('NV1'!C6:C1000, 'NV1'!C6:C1000 > 0))
@@ -57,11 +58,13 @@ Liệt kê các ngày tháng của NV3:
 =UNIQUE(FILTER('NV3'!C6:C1000, (ISNA(MATCH('NV3'!C6:C1000, B6:B1000, 0))) * (ISNA(MATCH('NV3'!C6:C1000, A6:A1000, 0)))*('NV3'!C6:C1000 > 0)))
 ```
    - Mình xác định số nguyên bằng hàm `RANK` như sau  
+
 Của NV1, NV2, và NV3:
 ```Excel
 =RANK(C6, Note!A:C, 1)
 ```  
-   - Tiếp theo, xác định số thập phân bằng `COUNTIF`, ưu tiên thứ tự của NV1 trước, rồi đến NV2, và NV3. Mình dùng hàm:
+   - Tiếp theo, xác định số thập phân bằng `COUNTIF`, ưu tiên thứ tự của NV1 trước, rồi đến NV2, và NV3. Mình dùng hàm:  
+
 Xác định thứ tự bằng số thập phân NV1:
 ```Excel
 =+0.01 * COUNTIF($C$6:C6, C6)
