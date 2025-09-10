@@ -29,6 +29,7 @@ File gồm các sheet sau:
 **1. Cập nhật thông tin bán hàng:**  
    Nhập chi tiết từng sản phẩm bán ra theo hóa đơn tại sheet `CTBH`.  
    Kiểm tra số liệu tổng hợp tại ô M1 để đảm bảo dữ liệu chạy đúng.  
+
 **2. Cập nhật danh mục và định mức sản phẩm:**  
    Tại sheet `ĐM`, nhập danh mục sản phẩm và định mức nguyên vật liệu cho từng sản phẩm.  
 3. Cập nhật nguyên vật liệu đầu kỳ và nhập trong kỳ:  
