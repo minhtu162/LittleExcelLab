@@ -59,7 +59,7 @@ File gồm các sheet sau:
 ---
 
 ### ⚙️ Cách vận hành
-1. Tại sheet `WIP`:  
+1. **Tại sheet `WIP`:**  
    + Cột chi phí 622, 627, Bao bì, CP khác:  
      Tổng chi phí được lấy tự động từ sheet `Tổng Chi Phí`.  
      Chi phí của từng sản phẩm sẽ được phân bổ đều dựa trên số lượng sản phẩm được sản xuất trong tháng.  
@@ -71,7 +71,7 @@ File gồm các sheet sau:
      Chi phí NVL sẽ được tự động cập nhật vào sheet `WIP`.  
      Dựa trên tổng chi phí NVL ở dòng Tổng, hệ thống sẽ phân bổ chi phí cho từng sản phẩm theo tỷ lệ NVL sử dụng trong kỳ.  
      Tổng chi phí NVL theo từng sản phẩm chính là chi phí 621.  
-2. Tại sheet `STOCK`:  
+2. **Tại sheet `STOCK`:**  
    + Cột Nhập: số liệu được lấy tự động bằng cột Xuất sheet `WIP` - số lượng sản phẩm dở dang đã hoàn thành trong kỳ và chuyển sang thành phẩm.  
    + Cột Xuất: số liệu được lấy tự động bằng số liệu ở sheet `CTBH`.  
 
