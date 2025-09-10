@@ -1,6 +1,6 @@
 ## Giá thành sản xuất (Định mức - Nhiều Sản phẩm và Nguyên vật liệu)
 **Hệ thống Excel hỗ trợ tính giá thành sản xuất theo định mức nguyên vật liệu cho nhiều sản phẩm**  
-File này được xây dựng nhằm hỗ trợ các kế toán viên trong việc xác định giá thành sản phẩm một cách nhanh chóng, chính xác và dễ thao tác. 
+File này được xây dựng nhằm hỗ trợ các kế toán viên trong việc xác định giá thành sản phẩm một cách nhanh chóng, chính xác và dễ thao tác.  
 *Lưu ý: Tất cả số liệu trong file chỉ mang tính minh họa, không phản ánh dữ liệu thực tế của bất kỳ doanh nghiệp nào.*
 
 ---
