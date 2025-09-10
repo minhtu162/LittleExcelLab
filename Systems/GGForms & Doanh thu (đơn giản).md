@@ -24,12 +24,12 @@ Nên dùng giới hạn chỉnh sửa ở các sheet, trừ 3 cột ở sheet `G
 ---
 
 ### 🧭 Hướng dẫn sử dụng
-   **1. Nhập dữ liệu** vào sheet `Google Forms` theo định dạng:   
+1. **Nhập dữ liệu** vào sheet `Google Forms` theo định dạng:   
    Tên mặt hàng / Đơn giá / Số lượng   
    Lưu ý khi nhập số tiền thì dùng dấu phẩy để đánh dấu hàng nghìn.  
-   **2. Kiểm tra phiếu giao hàng** trong sheet `Phiếu giao hàng` để đối chiếu thực tế.  
-   **3. Xem tổng hợp doanh thu** theo từng khu vực và quản lý tại sheet `Doanh thu`.  
-   **4. Ghi chú quan trọng**:  
+2. **Kiểm tra phiếu giao hàng** trong sheet `Phiếu giao hàng` để đối chiếu thực tế.  
+3. **Xem tổng hợp doanh thu** theo từng khu vực và quản lý tại sheet `Doanh thu`.  
+4. **Ghi chú quan trọng**:  
    - Các bạn TVV khi nhận ĐC nhớ kiểm tra lại với phiếu giao hàng  
    - Nếu có sai sót, vui lòng báo lại trong ngày để được xử lý kịp thời
 
