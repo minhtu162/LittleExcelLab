@@ -16,5 +16,4 @@ Chào mừng bạn đến với Little Excel Lab – nơi tổng hợp, sáng t�
 
 ## 🛠 Công nghệ sử dụng
 - Microsoft Excel/ Google Sheets (chủ yếu)
-- Power Query / VBA (tuỳ hệ thống)
 - Một chút sáng tạo và rất nhiều đam mê 💡
